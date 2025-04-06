@@ -6,7 +6,6 @@ Automatizovaný systém pro zálohování souborů z Windows systému (pomocí C
 ## 🚀 Funkce
 - Inkrementální zálohování
 - Full backup každých 7 dní
-- Obnova dle data
 - Spouštění přes Task Scheduler
 
 ## 🔐 Použité technologie
@@ -17,4 +16,4 @@ Automatizovaný systém pro zálohování souborů z Windows systému (pomocí C
 - Windows Task Scheduler
 
 ## 📋 Přístupy
-GitHub: https://github.com/TvojeJmeno/auto-backup-windows-linux
+GitHub: https://github.com/hoch12/auto-backup-windows-linux
