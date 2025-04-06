@@ -40,7 +40,9 @@ restore.sh – obnoví zálohu z vybraného dne
 
 ## 🛠️ Spuštění skriptů
 ```full_backup.sh ```
+
 ```inc_backup.sh ```
+
 ```restore.sh YYYY-MM-DD ```
 
 ## 📅 Automatizace
