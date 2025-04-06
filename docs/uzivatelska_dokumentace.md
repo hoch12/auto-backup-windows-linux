@@ -16,17 +16,19 @@
 
 ## 🔑 Nastavení SSH přístupu
 1. Generuj SSH klíč v Cygwin
-```bash ssh-keygen ```
+``` ssh-keygen ```
+
 Nahraj veřejný klíč na server:
 
 
-```bash ssh-copy-id -p PORT user@server ```
-(pokud ssh-copy-id nefunguje, použij ručně přes cat ~/.ssh/id_rsa.pub a vlož do ~/.ssh/authorized_keys na serveru)
+```ssh-copy-id -p PORT user@server ```
+(pokud ssh-copy-id nefunguje, použij ručně přes cat ```~/.ssh/id_rsa.pub``` a vlož do ```~/.ssh/authorized_keys``` na serveru)
 
 ## 📁 Struktura záloh
 /home/user/backups/
 
 ├── full_YYYY-MM-DD/
+
 └── inc_YYYY-MM-DD/
 
 ## 🗂️ Skripty
@@ -37,9 +39,9 @@ backup.sh – vytvoří inkrementální zálohu na základě full zálohy
 restore.sh – obnoví zálohu z vybraného dne
 
 ## 🛠️ Spuštění skriptů
-```bash full_backup.sh ```
-```bash inc_backup.sh ```
-```bash restore.sh YYYY-MM-DD ```
+```full_backup.sh ```
+```inc_backup.sh ```
+```restore.sh YYYY-MM-DD ```
 
 ## 📅 Automatizace
 Pomocí Task Scheduleru ve Windows:
