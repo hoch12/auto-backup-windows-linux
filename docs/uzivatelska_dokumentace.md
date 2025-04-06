@@ -25,6 +25,7 @@ Nahraj veřejný klíč na server:
 
 ## 📁 Struktura záloh
 /home/user/backups/
+
 ├── full_YYYY-MM-DD/
 └── inc_YYYY-MM-DD/
 
