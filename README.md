@@ -4,8 +4,9 @@
 Automatizovaný systém pro zálohování souborů z Windows systému (pomocí Cygwin) do Linux serveru pomocí rsync přes SSH.
 
 ## 🚀 Funkce
-- Inkrementální zálohování
-- Full backup každých 7 dní
+- Inkrementální zálohování (každý den)
+- Full backup (každých 7 dní)
+- Obnova dle data
 - Spouštění přes Task Scheduler
 
 ## 🔐 Použité technologie
