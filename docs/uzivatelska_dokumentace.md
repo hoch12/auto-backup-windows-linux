@@ -15,21 +15,15 @@
    - `nano` (nebo použij `vim`)
 
 ## 🔑 Nastavení SSH přístupu
-1. Generuj SSH klíč v Cygwin:
-```bash
-ssh-keygen
+1. Generuj SSH klíč v Cygwin
+```bash ssh-keygen ```bash
 Nahraj veřejný klíč na server:
 
-bash
-Zkopírovat
-Upravit
-ssh-copy-id -p PORT user@server
+
+```bash ssh-copy-id -p PORT user@server ```bash
 (pokud ssh-copy-id nefunguje, použij ručně přes cat ~/.ssh/id_rsa.pub a vlož do ~/.ssh/authorized_keys na serveru)
 
 ## 📁 Struktura záloh
-css
-Zkopírovat
-Upravit
 /home/user/backups/
 ├── full_YYYY-MM-DD/
 └── inc_YYYY-MM-DD/
@@ -37,17 +31,14 @@ Upravit
 ## 🗂️ Skripty
 full_backup.sh – vytvoří novou full zálohu
 
-inc_backup.sh – vytvoří inkrementální zálohu na základě full zálohy
+backup.sh – vytvoří inkrementální zálohu na základě full zálohy
 
 restore.sh – obnoví zálohu z vybraného dne
 
 ## 🛠️ Spuštění skriptů
-bash
-Zkopírovat
-Upravit
-bash full_backup.sh
-bash inc_backup.sh
-bash restore.sh YYYY-MM-DD
+```bash full_backup.sh ```bash
+```bash inc_backup.sh ```bash
+```bash restore.sh YYYY-MM-DD ```bash
 
 ## 📅 Automatizace
 Pomocí Task Scheduleru ve Windows:
