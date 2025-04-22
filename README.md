@@ -16,5 +16,31 @@ Automatizovaný systém pro zálohování souborů z Windows systému (pomocí C
 - Bash skripty
 - Windows Task Scheduler
 
-## 📋 Přístupy
+## 📋 Odkazy
+GitHub: https://github.com/hoch12/auto-backup-windows-linux
+
+
+____________________________________________________________________________________________________________________________
+
+
+
+# Automatic Backup from Windows to Linux
+
+## 💡 About the Project
+An automated system for backing up files from a Windows system (using Cygwin) to a Linux server via rsync over SSH.
+
+## 🚀 Features
+- Incremental backups (daily)
+- Full backup (every 7 days)
+- Restore by date
+- Triggered via Task Scheduler
+
+## 🔐 Technologies Used
+Cygwin (rsync, bash)
+- SSH keys / sshpass
+- Ubuntu server
+- Bash scripts
+- Windows Task Scheduler
+
+## 📋 Links
 GitHub: https://github.com/hoch12/auto-backup-windows-linux
