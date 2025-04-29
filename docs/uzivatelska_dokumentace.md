@@ -2,7 +2,7 @@
 
 ## 📦 Požadavky
 - Windows 10+
-- Nainstalovaný Cygwin s balíčky: `rsync`, `openssh`, `wget`, `nano` (volitelně)
+- Nainstalovaný Cygwin s balíčky: `rsync`, `openssh`, `wget`, `nano` 
 - Linux server s SSH přístupem
 - GitHub účet
 
